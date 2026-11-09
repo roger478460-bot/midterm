@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 
-API_BASE_URL = "https://midterm-1-s1zq.onrender.com"
+app = FastAPI(title="Wordle API Server")
 
 app.add_middleware(
     CORSMiddleware,

@@ -3,7 +3,7 @@ import os
 import pygame
 import requests
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://midterm-1-s1zq.onrender.com"
 
 # 顏色定義
 COLOR_BG = (18, 18, 19)
